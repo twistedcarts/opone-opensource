@@ -1,3 +1,7 @@
+--[[
+	ui for the open source esp thingy
+	hooray!
+]]--
 local gethui_support = gethui ~= nil
 local uis = cloneref ~= nil and cloneref(game:GetService("UserInputService")) or game:GetService("UserInputService")
 
