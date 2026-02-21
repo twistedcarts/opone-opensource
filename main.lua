@@ -1,7 +1,25 @@
+--[[
+    edit these variables to toggle the visuals
+
+    example:
+    local boxes = true will enable the boxes
+    local boxes = false will disable the boxes
+
+    local skeletons = true will enable the skeletons
+    local skeletons = false will disable the skeletons
+
+    (manual editing not needed since controlleld by ui now)
+]]--
+
 local boxes = false
 local skeletons = true
-local menu_key = Enum.KeyCode.Delete
 
+
+--[[
+    begin main script
+]]--
+
+local menu_key = Enum.KeyCode.Delete
 local pi = math.pi -- pi 😂 (those who know)
 
 -- check for shitty executors
